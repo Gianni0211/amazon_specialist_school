@@ -1,4 +1,5 @@
 import HeaderDescription from "./HeaderDescription/HeaderDescription";
+import img from "../../assets/Immagine_Header.jpg";
 import "./Header.css";
 
 const Header = (props) => {
@@ -7,7 +8,7 @@ const Header = (props) => {
       <div className="description-wrapper">
         <HeaderDescription />
       </div>
-      <img src="" alt="header-img" className="header-img"></img>
+      <img src={img} alt="header-img" className="header-img"></img>
     </div>
   );
 };
