@@ -1,17 +1,14 @@
 import "./LogoContactInfo.css";
+import logo from "../../../assets/logo_amazon_school.png";
 
 const LogoContactInfo = (props) => {
   return (
     <div className="logo-contact-info-wrapper">
       <div className="logo-wrapper">
         <img
-          width="1009"
-          height="164"
-          src="https://i7b4c7u7.rocketcdn.me/wp-content/uploads/2022/03/MAG_logo_capitalized.svg"
+          src={logo}
           className="logo"
           alt="MAG My Amazon Guy logo capitalized"
-          data-lazy-src="https://i7b4c7u7.rocketcdn.me/wp-content/uploads/2022/03/MAG_logo_capitalized.svg"
-          data-ll-status="loaded"
         />
       </div>
       <div className="contact-wrapper">

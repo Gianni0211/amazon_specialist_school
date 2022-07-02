@@ -1,6 +1,6 @@
-.nav-item-wrapper {
+.header {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 1rem;
 }
