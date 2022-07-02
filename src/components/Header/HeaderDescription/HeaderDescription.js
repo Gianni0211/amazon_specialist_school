@@ -1,3 +1,4 @@
+import Cta from "../../CTA/Cta";
 import "./HeaderDescription.css";
 
 const HeaderDEscription = (props) => {
@@ -10,7 +11,9 @@ const HeaderDEscription = (props) => {
         <h1 className="description-title">{title}</h1>
         <p className="description">{desc}</p>
       </div>
-      <div className="cta-wrapper">cta cta</div>
+      <div className="cta-wrapper">
+        <Cta label="Grow Sales Faster" /> <Cta label="Solve a Problem" />
+      </div>
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import "./LogoContactInfo.css";
 import logo from "../../../assets/logo_amazon_school.png";
+import Cta from "../../CTA/Cta";
 
 const LogoContactInfo = (props) => {
   return (
@@ -13,7 +14,7 @@ const LogoContactInfo = (props) => {
       </div>
       <div className="contact-wrapper">
         <p className="phone-number">1234567890</p>
-        CTA
+        <Cta label="Get a Proposal" />
       </div>
     </div>
   );

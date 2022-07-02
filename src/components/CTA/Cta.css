@@ -1,0 +1,17 @@
+.cta {
+  background-color: #ff7515;
+  color: #ffff;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-style: normal;
+  line-height: 1em;
+  fill: #ffff;
+  color: #ffff;
+
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #ff7515;
+  border-radius: 4px 4px 4px 4px;
+  padding: 14px 16px 14px 16px;
+}

@@ -7,7 +7,7 @@
   padding: 1rem;
 }
 .description-title {
-  font-family: "Manrope", Sans-serif;
+  font-family: "CooperHewitHeavy";
   font-size: 49px;
   font-weight: 900;
   text-transform: none;
@@ -15,6 +15,13 @@
   letter-spacing: -0.6px;
 }
 .description {
+  font-family: "Cooper Hewit Heavy";
+  font-size: 20px;
 }
 .cta-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }

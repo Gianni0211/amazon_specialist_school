@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "CooperHewitHeavy";
+  src: local("CooperHewitHeavy"),
+    url("./fonts/CooperHewitt-Heavy.otf") format("otf");
+}
+@font-face {
+  font-family: "Libre Frankling Light";
+  src: local("Libre Frankling Light"),
+    url("./fonts/librefranklin-light.ttf") format("ttf");
+}
