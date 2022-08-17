@@ -1,0 +1,19 @@
+.title-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+.title {
+  font-size: 75px;
+  color: var(--main);
+  text-transform: uppercase;
+  margin: 0;
+}
+.subtitle {
+  color: var(--main);
+  background-color: black;
+  font-size: 75px;
+  text-transform: uppercase;
+  margin: 0;
+}

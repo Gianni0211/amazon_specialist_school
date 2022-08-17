@@ -1,4 +1,5 @@
 import Cta from "../CTA/Cta";
+import Title from "./Title/Title";
 import "./Section.css";
 
 const Section = (props) => {
@@ -8,10 +9,11 @@ const Section = (props) => {
   let imgUrl = props.imgUrl;
   let ctaLabel = props.ctaLabel;
   let bgColor = props.bgColor;
+
   return (
     <div className="section-wrapper">
       <div className="text-wrapper">
-        <h3 className="title">{title}</h3>
+        <Title title={title} />
         <p className="description">{text}</p>
 
         <Cta label={ctaLabel} />

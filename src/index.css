@@ -1,6 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;700&display=swap");
+:root {
+  --main: #ff7515;
+  --bg-light: #fff6f0;
+}
 body {
   margin: 0;
-  font-family: "Cooper Hewit Heavy", "Libre Frankling Light", sans-serif;
+  font-family: "Barlow", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
