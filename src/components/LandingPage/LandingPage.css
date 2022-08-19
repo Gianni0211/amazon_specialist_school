@@ -1,3 +1,6 @@
+section {
+  padding-block: 50px;
+}
 .journey {
   background-color: var(--bg-light);
   display: flex;
@@ -8,7 +11,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   width: 60%;
 
   padding: 2rem;
@@ -21,17 +24,74 @@
   display: flex;
   align-items: center;
   flex-direction: row;
+  position: relative;
+}
+.method-text {
+  z-index: 1;
+  width: 30%;
+}
+.wheel-img {
+  width: 500px;
+}
+.pasta-img {
+  width: 500px;
+  z-index: 0;
+  position: absolute;
+  top: 100px;
+  right: 0px;
 }
 .services {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: var(--bg-light);
-  padding-block: 1.5rem;
 }
+
 .cards-wrapper {
   display: flex;
   flex-direction: row;
   gap: 1rem;
   margin-top: 2rem;
+}
+.account-management {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.section-logo {
+  width: 300px;
+}
+.account-img {
+  width: 600px;
+}
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--bg-light);
+}
+
+.partners-wrapper {
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.contact-img {
+  width: 600px;
+}
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: start;
+  justify-content: center;
+}
+.contact-title {
+  display: flex;
+  justify-content: left;
 }
